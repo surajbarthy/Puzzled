@@ -2,10 +2,14 @@ let flag = 0;
 let mainImg, mask1, mask2;
 
 function preload() {
-  mainImg1 = loadImage('image.png');
-  mainImg2 = loadImage('image.png');
   mask1 = loadImage('mask1.png');
   mask2 = loadImage('mask2.png');
+  mask3 = loadImage("mask3.png");
+  mask4 = loadImage("mask4.png");
+  mask5 = loadImage("mask5.png");
+  mask6 = loadImage("mask6.png");
+  mask7 = loadImage("mask7.png");
+  mask8 = loadImage("mask8.png");
 }
 
 function setup() {
